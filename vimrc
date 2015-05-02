@@ -13,9 +13,11 @@ set mouse=a
 set ruler
 set showcmd
 set incsearch
+set hlsearch
 set sidescroll=1
 set whichwrap=b,s,<,>,[,]
 set foldmethod=marker
+set cursorline
 filetype off
 
 set rtp+=~/.vim/bundle/vundle/
@@ -50,9 +52,10 @@ filetype plugin indent on
 
 "solarized
 set t_Co=16
-set background=dark
-let g:solarized_termtrans = 1
-colorscheme solarized
+" set background=dark
+
+" let g:solarized_termtrans = 1
+" colorscheme solarized
 
 "powerline
 set laststatus=2
